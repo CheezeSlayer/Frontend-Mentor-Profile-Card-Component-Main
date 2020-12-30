@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    overflow: hidden;
+}
+
+hr {
+    margin: 10% 0;
+}
+
+.background-pattern-top {
+    position: absolute;
+    right: -15%;
+    bottom: -50%;
+}
+
+.background-pattern-bottom {
+    position: absolute;
+    left: -15%;
+    top: -50%;
+}
+
+.card {
+    text-align: center;
+    border-radius: 5% 5% 5% 5%;
+    position: relative;
+    margin: 10% auto;
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+}
+
+.card-top {
+    border-radius: 5% 5% 0 0;
+    background-image: url("../images/bg-pattern-card.svg");
+    width: 100%;
+    height: 30%;
+}
+
+.card-image {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 35%
+}
+
+.card-body {
+    padding-top: 75px;
+}
+
+.card-header h2 {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.card-header h3, .age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.card-stats {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    display: flex;
+}
+
+.value {
+    margin: auto;
+    font-weight: 700;
+}
+
+.type {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
