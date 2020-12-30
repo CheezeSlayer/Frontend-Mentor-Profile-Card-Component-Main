@@ -1,33 +1,27 @@
 body {
     background-color: hsl(185, 75%, 39%);
+    margin: 0%;
+    padding: 0;
+    height: 100%;
     font-family: "Kumbh Sans", sans-serif;
-    overflow: hidden;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 40vh, left 48vw top 40vh;
 }
 
 hr {
-    margin: 10% 0;
-}
-
-.background-pattern-top {
-    position: absolute;
-    right: -15%;
-    bottom: -50%;
-}
-
-.background-pattern-bottom {
-    position: absolute;
-    left: -15%;
-    top: -50%;
+    margin: 10% auto;
 }
 
 .card {
     text-align: center;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 5%;
     position: relative;
     margin: 10% auto;
     background-color: #fff;
     width: 350px;
     height: 450px;
+    box-shadow: 2px 2px hsl(227, 10%, 46%);
 }
 
 .card-top {
